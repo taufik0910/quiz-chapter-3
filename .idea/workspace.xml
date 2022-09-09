@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f1cfd0-5f56-44c5-95bf-ebf30e6a6363" name="Changes" comment="done case,">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="d8f1cfd0-5f56-44c5-95bf-ebf30e6a6363" name="Changes" comment="refactory untuk penambahan vs com kedua">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CallResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GetResult.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Controller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Logic.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662675048430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactory untuk penambahan vs com">
+      <created>1662685367303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662685367303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactory untuk penambahan vs com kedua">
+      <created>1662685420362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662685420362</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,17 +112,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done case," />
-    <option name="LAST_COMMIT_MESSAGE" value="done case," />
+    <MESSAGE value="refactory untuk penambahan vs com" />
+    <MESSAGE value="refactory untuk penambahan vs com kedua" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactory untuk penambahan vs com kedua" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>44</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="java-exception" />
       </default-breakpoints>

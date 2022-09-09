@@ -2,8 +2,8 @@ fun main() {
      println("==========================")
      println("GAME SUIT TERMINAL VERSION")
      println("==========================")
-     println("Tekan 1 untuk main dengan teman")
-     println("Tekan 2 untuk main dengan computer")
+     println("Tekan 1 untuk main dengan Teman")
+     println("Tekan 2 untuk main dengan Computer")
      print("Pilih :")
      val optional = optionPlaying()
      if (optional=="1"){
