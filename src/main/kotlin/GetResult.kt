@@ -5,7 +5,7 @@ interface GetResult {
         if (status) {
             println("Kamu Menang!! $p1 mengalahkan $p2")
         } else {
-            println("Yah.. Kamu Kalah!! $p2 mengalahkan $p1")
+            println("Yah.. Kamu Kalah!! ${p2.uppercase()} mengalahkan ${p1.uppercase()}")
 
         }
 }
