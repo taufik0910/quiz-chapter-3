@@ -5,21 +5,21 @@ fun main() {
      println("Tekan 1 untuk main dengan teman")
      println("Tekan 2 untuk main dengan computer")
      print("Pilih :")
-     val optic = optionPlaying()
-     if (optic=="1"){
+     val optional = optionPlaying()
+     if (optional=="1"){
           do {
                print("1. Masukkan pemain 1 : ")
-               val input1 = getInputUser()
+               val input1 = getReturnGame()
                print("2. Masukkan pemain 2 : ")
-               val input2 = getInputUser()
+               val input2 = getReturnGame()
 
-               val controller = Controller(object : CallResult {
+               val logic = Logic(object : GetResult {
                     override fun result(hasil: String) {
                          println(hasil)
                     }
                })
 
-               controller.compare(input1.toString(), input2.toString())
+               logic.compare(input1.toString(), input2.toString())
 
                print("Lanjut Game ? (ya / tidak) ")
                var input : String?
@@ -31,32 +31,22 @@ fun main() {
                     }
                } while (!posibleInput.contains(input))
 
-
           } while (input == "ya")
-     }else if (optic=="2"){
+     }else if (optional=="2"){
 
-          println("==========================")
-          println("GAME SUIT TERMINAL VERSION")
-          println("==========================")
+          print("1. Masukkan pilihan : ")
 
-          print("1. Masukkan pemain 1 : ")
-          val input1 = getInputUser()
-          print("2. Masukkan pemain 2 : ")
-          val input2 = getInputUser()
-
-          val controller = Controller(object : CallResult {
+          val logic = Logic(object : GetResult {
                override fun result(hasil: String) {
                     println(hasil)
                }
           })
 
-          controller.compare(input1.toString(), input2.toString())
-
-
+          logic.comVsCom()
      }
 }
 
-fun getInputUser() : String? {
+fun getReturnGame() : String? {
      var input : String?
      val posibleInput = listOf("kertas", "gunting", "batu")
      do {
@@ -74,7 +64,6 @@ fun optionPlaying(): String?{
      do {
           options = readLine()!!.trim().lowercase()
           if (!listGameOption.contains(options)){
-
           }
      }while (!listGameOption.contains(options))
 
